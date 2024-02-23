@@ -8,6 +8,6 @@ What are the conditions for the task to be finished ?
 What failures have you found , what were the reasons for them, evaluate between themselves?
 
 What to try ?
-1) 
+1) create new branch and work from it
 2) 
 3) 
