@@ -9,7 +9,13 @@ export const config = {
     capabilities: [{
             browserName: 'chrome',
             'goog:chromeOptions': {
-                args: ['headless', 'disable-gpu']
+                args: [
+                    '--no-sandbox',
+                    '--disable-infobars',
+                    '--headless',
+                    '--disable-gpu',
+                    '--window-size=1440,735'
+                ],
             }
     }],
     logLevel: 'info',
